@@ -1,0 +1,1 @@
+select refund_refused_item as cc from tb_hospital_settings where hospital_id='HOSPITAL_ID';

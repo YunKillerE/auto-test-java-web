@@ -1,0 +1,4 @@
+INSERT INTO tb_exam_company VALUES (COMPANY_ID, 'COMPANY_NAME', 'dwnpy', 1, '', 'description');
+insert into tb_hospital_exam_company_relation (hospital_id, company_id, discount, show_report, show_invoice, employee_import, support_anytime_import, create_time, settlement_mode) values (HOSPITAL_ID, COMPANY_ID, 1, 0, 0, 0, 0, now(), 0);
+INSERT INTO `tb_order` (`id`,`batch_id`,`order_num`,`account_id`,`status`,`order_price`,`exam_date`,`exam_time_interval_id`,`hospital_id`,`entry_card_id`,`discount`,`is_export`,`source`,`insert_time`,`update_time`,`items_detail`,`meal_detail`,`remark`,`difference_price`,`from_site`) VALUES ('COMPANY_ID', null, 'MYSQL_ORDER_NUM', '11111', '2', 'ORDER_PRICE', now(), '1', 'HOSPITAL_ID', null, '1', '0', '0', now(), now(), ITEM_AND_MEAL , null, null, null);
+insert into tb_order_relation(order_id,account_company_id,operator_id,manager_id,owner_id,exam_company_id) values(COMPANY_ID,22222,11111,11111,11111,COMPANY_ID);

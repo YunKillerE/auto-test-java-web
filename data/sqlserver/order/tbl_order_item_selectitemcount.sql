@@ -1,0 +1,1 @@
+select count(order_id) as cc from tbl_order_item where order_id=(select id from tbl_order where order_num='MYSQL_ORDER_NUM')

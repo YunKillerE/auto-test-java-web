@@ -1,0 +1,1 @@
+INSERT INTO accomplish_order(order_num, status, is_absent, name, exam_date, idcard, mobile, age, gender, marriage_status, exam_company, department, workno, offline_pay_amount) VALUES('MYSQL_ORDER_NUM', null, '1', 'order1', getdate(), (NULL), (NULL), '1', '1', (NULL), 'SUCCESSFUL', (NULL), (NULL), (NULL));

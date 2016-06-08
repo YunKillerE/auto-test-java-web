@@ -1,0 +1,1 @@
+select status as cc from tb_order where order_num='MYSQL_ORDER_NUM';

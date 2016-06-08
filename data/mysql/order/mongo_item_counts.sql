@@ -1,0 +1,1 @@
+db.getCollection('mongoOrder').find({"orderNum":'MYSQL_ORDER_NUM'},{"hisItemIds":1,"_id":0})

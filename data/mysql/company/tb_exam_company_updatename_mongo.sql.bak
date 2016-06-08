@@ -1,0 +1,1 @@
+db.mongoOrder.update({"companyId":COMPANY_ID},{$set:{name:"UPDATE_COMPANY_NAME"}})
